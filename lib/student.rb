@@ -21,7 +21,7 @@ end
     attributes_hash.each{|key, value| self.send(("#{key}="), value)}
     self
 end
-  end
+
 
   def self.all
     @@all
