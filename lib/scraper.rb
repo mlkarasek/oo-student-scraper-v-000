@@ -35,6 +35,6 @@ scraped_profiles = {}
     scraped_profiles[:bio] = doc.css("div.description-holder p").text
   end
   scraped_profiles
-    end
-
-
+end
+end
+end 
