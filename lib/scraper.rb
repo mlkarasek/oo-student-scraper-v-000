@@ -34,7 +34,7 @@ scraped_profiles = {}
     scraped_profiles[:profile_quote] = doc.css("div.profile-quote").text
     scraped_profiles[:bio] = doc.css("div.description-holder p").text
   end
-  scraped_profiles
+  scraped_profiles << student 
 end
 end
-end 
+end
