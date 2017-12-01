@@ -8,7 +8,7 @@ class Student
     student_hash.each{|key, value| self.send(("#{key}="), value)}
   end
 
-@all << self
+@all << student 
 end
 
   def self.create_from_collection(students_array)
