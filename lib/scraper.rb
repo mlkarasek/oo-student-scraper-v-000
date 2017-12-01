@@ -36,5 +36,5 @@ scraped_profiles = {}
   end
   scraped_profiles
     end
- end
- end 
+
+end
